@@ -1,0 +1,25 @@
+/* Ticket.css */
+.ticket-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.status-icon,
+.priority-icon,
+.user-icon {
+    margin-right: 5px;
+}
+
+.status-label,
+.priority-label,
+.user-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.status-value,
+.priority-value,
+.user-value {
+    margin-right: 20px;
+}

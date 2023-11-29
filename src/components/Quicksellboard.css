@@ -1,0 +1,54 @@
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: #e3e6e9;
+    /* Change the background color */
+    color: #fff;
+    /* Set text color to white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+}
+
+.options button {
+    background-color: #b9d1e4;
+    /* Change button background color */
+    color: #fff;
+    /* Set button text color to white */
+    border: none;
+    /* padding: 10px 15px; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.board-header {
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #e3e6e9;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+    /* Use 'font-weight' instead of 'text-bold' */
+}
+
+.board-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(237, 243, 246);
+}
